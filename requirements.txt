@@ -1,0 +1,12 @@
+streamlit
+openai
+chromadb
+pandas
+python-dotenv
+streamlit-authenticator
+supabase
+pydantic
+langchain
+langchain-openai
+langchain-community
+tiktoken

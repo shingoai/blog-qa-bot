@@ -1,0 +1,13 @@
+.env
+*.pyc
+__pycache__/
+venv/
+env/
+.DS_Store
+chroma_db/
+question_logs.json
+question_logs.csv
+*.log
+.streamlit/secrets.toml
+*.db
+*.sqlite
