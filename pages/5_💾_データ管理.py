@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import os
 from datetime import datetime
-from components.knowledge_base import KnowledgeBase
+from components.knowledge_base_supabase import KnowledgeBaseSupabase as KnowledgeBase
 from utils.auth import check_password
 from dotenv import load_dotenv
 import pandas as pd

@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 import hashlib
 import re
-from components.knowledge_base import KnowledgeBase
+from components.knowledge_base_supabase import KnowledgeBaseSupabase as KnowledgeBase
 from components.question_logger import QuestionLogger
 from utils.auth import check_password
 

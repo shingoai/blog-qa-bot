@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from components.knowledge_base import KnowledgeBase
+from components.knowledge_base_supabase import KnowledgeBaseSupabase as KnowledgeBase
 from utils.auth import check_password
 from dotenv import load_dotenv
 import re
