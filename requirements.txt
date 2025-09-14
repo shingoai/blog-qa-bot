@@ -10,3 +10,5 @@ langchain
 langchain-openai
 langchain-community
 tiktoken
+plotly
+feedparser
