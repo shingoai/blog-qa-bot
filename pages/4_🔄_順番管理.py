@@ -13,8 +13,8 @@ st.set_page_config(
     layout="wide"
 )
 
-# if not check_password():
-#     st.stop()
+if not check_password(require_admin=True):
+    st.stop()
 
 st.title("🔄 章・レッスンの順番管理")
 st.markdown("章やレッスンの表示順番を調整します。")

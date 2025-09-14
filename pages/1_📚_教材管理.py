@@ -12,8 +12,8 @@ st.set_page_config(
     layout="wide"
 )
 
-# if not check_password():
-#     st.stop()
+if not check_password(require_admin=True):
+    st.stop()
 
 st.title("📚 教材管理")
 st.markdown("章とレッスンごとに教材を整理して管理します。")

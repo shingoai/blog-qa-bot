@@ -15,8 +15,8 @@ st.set_page_config(
     layout="wide"
 )
 
-# if not check_password():
-#     st.stop()
+if not check_password(require_admin=True):
+    st.stop()
 
 st.title("📊 質問分析ダッシュボード")
 st.markdown("生徒からの質問を分析し、教材改善に活用します。")

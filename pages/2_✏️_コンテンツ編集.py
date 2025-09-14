@@ -12,8 +12,8 @@ st.set_page_config(
     layout="wide"
 )
 
-# if not check_password():
-#     st.stop()
+if not check_password(require_admin=True):
+    st.stop()
 
 st.title("✏️ コンテンツ編集・削除")
 st.markdown("既存のコンテンツを編集または削除します。")

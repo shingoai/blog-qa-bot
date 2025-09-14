@@ -19,8 +19,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# if not check_password():
-#     st.stop()
+if not check_password():
+    st.stop()
 
 @st.cache_resource
 def init_knowledge_base():
